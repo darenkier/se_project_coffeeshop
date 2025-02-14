@@ -13,6 +13,7 @@
 .form__fieldset {
   margin: 0;
   padding: 0;
+  border: 0;
 }
 
 .form__input {
@@ -24,6 +25,20 @@
   border: 1px solid #838383;
   border-radius: 4px;
   color: #000;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input::placeholder {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }
 
 .form__button {
