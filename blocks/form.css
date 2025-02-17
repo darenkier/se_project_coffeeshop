@@ -13,7 +13,7 @@
 .form__fieldset {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: none;
 }
 
 .form__input {
@@ -56,11 +56,10 @@
   line-height: 20px;
   transition: background-color 0.5s ease-in-out;
   cursor: pointer;
-
 }
 
 .form__button:hover {
-  background-color: #3F96F3;
+  background-color: #3f96f3;
 }
 
 .form__checkbox {
